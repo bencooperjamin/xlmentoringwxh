@@ -17,6 +17,7 @@
     letter-spacing: 30px;
     text-align: center;
     
+    
 }
 #wrexham {
     font-family: "Alumni Sans Pinstripe", sans-serif;
@@ -31,9 +32,16 @@
     color:tomato;
 }
 #dragon {
-    display: block;
-   
-    margin-top: -50px;
+    
+    display: flex;
+    justify-content: center;
+    margin: -51px;
+    margin-left: 785px;
     transform: scaleX(-1);
     
+}
+
+#menu {
+    list-style-type: none;
+    text-align: center;
 }
