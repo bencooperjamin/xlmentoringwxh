@@ -7,9 +7,33 @@
 }
 
 /*header and nav */
- 
-#title {
-    font-family: alumni-sans-pinstripe, mohave, sans-serif;
-    text-transform: uppercase;
 
+
+
+#title {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    text-transform: uppercase;
+    font-size: 1000%;
+    letter-spacing: 30px;
+    text-align: center;
+    
+}
+#wrexham {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-top: -50px;
+
+}
+#x {
+    color:tomato;
+}
+#dragon {
+    display: block;
+   
+    margin-top: -50px;
+    transform: scaleX(-1);
+    
 }
