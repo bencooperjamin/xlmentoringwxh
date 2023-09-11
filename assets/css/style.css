@@ -6,29 +6,34 @@
     border: 0;
 }
 
+body {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
 /*header and nav */
 
 #title {
     font-family: "Alumni Sans Pinstripe", sans-serif;
-    text-transform: uppercase;
-    font-size: 5rem;
-    letter-spacing: 60px;
     text-align: center;
-    position: relative;
-    left: 30px;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 60px;
 
 }
 
 #wrexham {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     text-transform: uppercase;
-    font-size: 3rem;
-    font-weight: bold;
-    letter-spacing: 70px;
     text-align: center;
-    margin-top: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 80px;
+    margin: 0, 0, 0, 0;
     position: relative;
-    left: 10px;
+    left: 0px;
     top: -12px;
     z-index: 2;
 }
@@ -41,9 +46,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: -100px;
     position: relative;
-    top: -100px;
+    top: -40px;
     z-index: 1;
 }
 
@@ -51,16 +55,16 @@ nav {
     width: 100%;
     list-style: none;
     font-weight: bold;
-    margin: 0 0 0 0;
     text-align: center;
     float: left;
     position: relative;
-    top: -150px;
+    top: -70px;
+
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0px auto;
+
 }
 
 nav li a {
@@ -89,11 +93,11 @@ footer {
     background: #8f8f8f;
 }
 
-#footer-details {
+.container-fluid {
     font-family: "Mohave", sans-serif;
     background: #444343;
     color: #ffffff;
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
 }
 
@@ -111,58 +115,84 @@ footer {
 }
 
 .copyright {
+    font-family: "Mohave", sans-serif;
     padding-top: 10px;
 }
 
 /* For medium screens sizes from 950px wide and down */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1650px) {
+
     #title {
-        font-size: 4rem;
-        letter-spacing: 8px;
+
         position: relative;
-        left: 5px;
+        left: 30px;
     }
 
     #wrexham {
-        font-size: 100%;
-        letter-spacing: 25px;
-        font-weight: bold;
-        margin-top: 0px;
+
         position: relative;
-        left: 5px;
+        left: 30px;
+
     }
 
-    #dragon {
-        height: 25px;
-        width: 25px;
-        position: relative;
-        top: -25px;
-    }
-    nav {
-        position: relative;
-        top: -35px;
-    }
+    @media screen and (max-width: 950px) {
 
-    nav li a {
-        font-size: 12px;
-        padding: 0px;
-        width: 25%;
-    }
+        #title {
+            text-align: center;
+            font-size: 4rem;
+            letter-spacing: 8px;
+            position: relative;
+            left: 3px;
+        }
 
-    #footer-details {
-        width: 108%;
-    }
+        #wrexham {
+            text-align: center;
+            font-size: 100%;
+            letter-spacing: 25px;
+            font-weight: bold;
+            margin-top: 0px;
+            position: relative;
+            left: 10px;
 
-    .general-sub {
-        font-size: 6px;
-    }
+        }
 
-    .inline-block {
-        font-size: 6px;
-    }
+        #dragon {
+            height: 25px;
+            width: 25px;
+            position: relative;
+            top: -25px;
+        }
 
-    .facebook {
-        font-size: 15px;
-    }
-}
+        nav {
+            position: relative;
+            top: -35px;
+        }
+
+        nav li a {
+            font-size: 12px;
+            padding: 0px;
+            width: 25%;
+        }
+
+        #footer-details {
+            width: 108%;
+        }
+
+        .general-sub {
+            font-size: 6px;
+        }
+
+        .inline-block {
+            font-size: 6px;
+        }
+
+        .facebook {
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: 700px) {
+
+            #title {
+                text-align: center;
+                font-size: 2rem;
