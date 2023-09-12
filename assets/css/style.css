@@ -6,12 +6,7 @@
     border: 0;
 }
 
-body {
-    overflow-y: hidden;
-    /* Hide vertical scrollbar */
-    overflow-x: hidden;
-    /* Hide horizontal scrollbar */
-}
+
 
 /*header and nav */
 
@@ -30,16 +25,10 @@ body {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    letter-spacing: 80px;
-    margin: 0, 0, 0, 0;
+    letter-spacing: 75px;
     position: relative;
-    left: 0px;
     top: -12px;
     z-index: 2;
-}
-
-#x {
-    color: #b68888;
 }
 
 #dragon {
@@ -86,20 +75,66 @@ nav li a:hover {
     text-decoration: none;
 }
 
-/*hamber*/
+.hero-images {
+    clear: both;
+    line-height: 0px;
+    column-count: 2;
+    column-gap: 0px;
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    top: -70px;
 
-/*footer*/
+    
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #ffffff;
+}
+
+
+#hero-circle {
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding-top: 100px;
+    background-color: rgba(224, 45, 14, 0.651);
+    position: relative;
+    bottom: 335px;
+    right: 150px;
+    
+}
+
+#hero-text {
+    font-family: "mohave",sans-serif;
+    font-size: 210%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+    
+
+
+}
+
+    
+    /*footer*/
 
 footer {
     background: #8f8f8f;
+    margin:auto;
 }
 
 .container-fluid {
     font-family: "Mohave", sans-serif;
     background: #444343;
     color: #ffffff;
-    padding-top: 0px;
+    padding-top: 10px;
     text-align: center;
+    top:300px;
 }
 
 .general-sub {
@@ -194,6 +229,7 @@ footer {
 
         @media screen and (max-width: 700px) {
 
-            #title {
-                text-align: center;
-                font-size: 2rem;
+        #title {
+            text-align: center;
+            font-size: 2rem;
+        }
