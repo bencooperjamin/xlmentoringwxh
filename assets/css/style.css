@@ -76,13 +76,14 @@ nav li a {
     padding: 10px;
     text-decoration: none;
     color: #444343;
-    background-color: #3ad64fee;
+    background-color: #17aa2aee;
     float: left;
 }
 
 nav li a:hover {
     color: #ffffff;
-    background-color: rgb(238, 101, 77);
+    background-color: rgb(223, 65, 37);
+    text-decoration: none;
 }
 
 /*hamber*/
