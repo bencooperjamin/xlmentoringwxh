@@ -98,7 +98,7 @@ nav a {
 
 .pdf {
     text-align: right;
-    margin-top: ;
+    /* margin-top: ; */
     color: blue;
 }
 
@@ -122,12 +122,14 @@ nav a {
     background-color: #2e2727a4;
 
 }
+
 /*gallery.html----------------------------------------------------------------*/
-.carousel-caption{
+.carousel-caption {
     font-family: "Mohave", sans-serif;
-    color:aliceblue;
+    color: aliceblue;
 
 }
+
 #media-links {
     font-family: "Mohave", sans-serif;
     color: aliceblue;
@@ -240,12 +242,13 @@ footer {
             font-size: 10px;
             margin-top: 10px;
         }
+
         #card-links {
             font-size: 20px;
             margin-top: 50px;
         }
-           
-                    
+
+
 
         @media screen and (max-width: 280px) {
             #title {
@@ -282,18 +285,3 @@ footer {
                 padding: 5px;
 
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
