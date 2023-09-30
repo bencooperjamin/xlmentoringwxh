@@ -8,11 +8,9 @@ body {
 header {
     margin: auto;
 }
-
 .bg-color-name-title {
     background-color: #2c2727;
 }
-
 #title {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     text-align: center;
@@ -22,11 +20,9 @@ header {
     letter-spacing: 10px;
     padding-top: 5px;
 }
-
 .bg-color-name-wrexham {
     background-color: aliceblue;
 }
-
 #wrexham {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     text-align: center;
@@ -36,7 +32,6 @@ header {
     letter-spacing: 5px;
     padding-top: 5px;
 }
-
 #x {
     color: #ba2222;
 }
@@ -47,16 +42,11 @@ header {
 .nav {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     background-color: #267c31ee;
-
 }
-
 nav a {
     color: aliceblue;
     font-weight: bold;
-    letter-spacing: 1px;
-
-}
-
+    letter-spacing: 1px;}
 .hvr-sweep-to-bottom:before {
     background: #ba2222 !important;
     height: 40px;
@@ -68,15 +58,12 @@ nav a {
     border: none !important;
     border-radius: none !important;
 }
-
-.card-title {
+.card-title{
     font-family: "Mohave", sans-serif;
-    text-transform: uppercase;
-    color: #2c2727;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #1c1919cd;
 }
 
 #hero-text {
@@ -89,37 +76,34 @@ nav a {
     padding: 20px;
     background-color: #ba2222a4;
 }
-.testimonies {
+.card-sub-titles {
+    font-size: 40px;
     text-transform: uppercase;
 }
-
 .card-links {
     font-family: "Mohave", sans-serif;
     text-align: center;
     color: aliceblue;
     font-size: 20px;
-    margin-top: 300px;
+    margin-top: 100px;
     padding: 50px;
     border-radius: 5px;
     padding: 10px;
-    background-color: #2e2727a4;
+    background-color: #201d1d5c;
 }
 
 #mentorstestimony{
-    padding-top:30px;
+    margin-top: 0px;
+    padding-top: 30px;
 }
-
-
-
-
 .card-title-testimony {
     font-family: "Mohave", sans-serif;
     color: aliceblue;
     text-transform: uppercase;
     text-shadow: 2px 2px #2c2727;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 0;
+    
+    
+    
 }
 
 .card-text {
@@ -138,7 +122,8 @@ nav a {
 #justbethere {
     padding-top: 40px;
 }
-#staying-together{
+
+#staying-together {
     padding-top: 20px;
 }
 
@@ -169,32 +154,18 @@ nav a {
 
 }
 
-#media-links {
+.card-sub-titles {
     font-family: "Mohave", sans-serif;
     color: aliceblue;
     font-size: 20px;
-    
     text-align: center;
-    margin-top: 10px;
-    padding: 50px;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: #2f2929de;
-}
-#hello-mag{
-    font-family: "Mohave", sans-serif;
-    font-size: 24px;
+   
 }
 
-.container-links {
+#hello-mag {
     font-family: "Mohave", sans-serif;
-    text-align: center;
-    font-size: 25px;
-    padding: 50px;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #1c1919cd;
-    margin-top: 50px;
+    font-size: 24px;
+    color:rgb(21, 38, 222) !important;
 }
 
 /*contact form----------------------------------------------------------------*/
@@ -255,274 +226,201 @@ footer {
 }
 
 
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {}
-
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screens sizes from 768px wide and down */
+@media screen and (max-width: 768px) {
     #title {
         font-size: 80px;
     }
-
     .card-title {
-        font-size: 25px;
+        font-size: 30px;
     }
-
     #hero-text {
+        font-size: 16px;
         margin-top: 0px;
         padding: 5px;
     }
-    
     .card-links {
-       margin-top: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+        background-color: #201d1db2;;
     }
-    audio{
-        width:75%;
+    #mentorstestimony {
+        padding-top: 10px;
     }
-   .card-title-testimony {
-        font-size: 25px;
-        
+    audio {
+        height: 25px;
+        width: 300px;
     }
-    
     .card-text {
-        margin-top: 30px;
+        font-size: 16px;
+        margin-top: 15px;
     }
-
     #aboutusimg {
         width: 100%;
     }
-
     .container-aboutus {
-        margin-top: 55px;
-        font-size: 24px;
-
+        margin-top: 100px;
+        font-size: 16px;
     }
-
     #galleryimg {
         width: 100%;
     }
-
-        .carousel-card {
-            margin-top: 50px;
-
+    .carousel-card {
+        margin-top: 50px;
+    }
     #media-links {
-        font-size: 35px;
+        font-size: 16px;
     }
-
+    #hello-mag{
+        font-size: 16px;
+    }
     #contactusimg {
-        height: 870px;
         width: 100%;
-
-
+        object-fit: cover;
+    }
+    #card-subtitle{
+        font-size: 16px;
     }
 
 
-    /* For small screens sizes from 430px wide and down */
-    @media screen and (max-width: 430px) {
+        /* For small screens sizes from 576px wide and down */
+        @media screen and (max-width: 576px) {
 
-        .hvr-sweep-to-bottom:before {
-            height: 45px;
+            .hvr-sweep-to-bottom:before {
+                height: 45px;
+            }
+            #title {
+                font-size: 40px;
+            }
+            #wrexham {
+                font-size: 22px;
+            }
+            nav a {
+                font-size: 12px !important;
+                text-transform: uppercase;
+            }
+            .card-title {
+                font-size: 24px;
+            }
+            #hero-image {
+                object-fit: cover;
+                height: 550px;
+            }
+            #hero-text {
+                font-size: 16px
+            }
+            #green-door {
+                object-fit: cover;
+                height: 325px;
+            }
+            .card-links {
+                font-size: 14px;
+                margin-top: 30px;
+            }
+            audio {
+                width: 75%;
+            }
+            #mentorstestimony {
+                padding-top: 0px;
+            }
+            .card-text {
+                font-size: 14px;
+                padding: 2px;
+                margin-top: 15px;
+            }
+            #justbethere {
+                padding-top: 25px;
+            }
+            #staying-together {
+                padding-top: 15px;
+            }
+
+            .container-aboutus {
+                padding: 2px;
+                margin-top: 50px;
+            }
+            .carousel-card {
+                min-height: 350px;
+                border-bottom: 100px;
+            }
+            form {
+                font-size: 15px;
+                margin-top: 0px;
+            }
+            .inline-block {
+                font-size: 7px;
+            }
+            .facebook {
+                font-size: 20px;
+            }
         }
 
-        #title {
-            font-size: 40px;
-        }
+        @media screen and (max-width: 390px) {
+            #title {
+                font-size: 20px;
+                text-align: center;
+            }
 
-        #wrexham {
-            font-size: 22px;
-        }
+            #wrexham {
+                font-size: 9x;
+            }
 
-        nav a {
-            font-size: 12px !important;
-            text-transform: uppercase;
-        }
-
-        .card-title {
-            font-size: 12px;
-
-        }
-        #hero-image{
-            object-fit: cover;
-            height:550px;
-        }
-
-        #hero-text {
-            font-size:12px
-        }
-        #green-door{
-            object-fit: cover;
-            height: 325px;
-        }
-
-        .card-links {
-            margin-top: 45px;
-            font-size: 12px;
-        }
-
-        audio {
-            width: 75%;
-            
-        }
-
-        #mentorstestimony {
-            padding-top: 0px;
-        }
-        .card-title-testimony {
-            font-size: 12px;
-        }
-
-        
-        .card-text {
-            font-size: 12px;
-            padding: 2px;
-            margin-top: 20px;
-                }
-        #justbethere {
-            padding-top: 0px;
-        }
-        #staying-together {
-            padding-top: 0px;
-        }
-
-        #aboutusimg {
-            width: 100%;
-        }
-
-        .container-aboutus {
-            font-size: 13px;
-            padding: 2px;
-            margin-top: 10px;
-        }
+            nav a {
+                font-size: 8px !important;
+                letter-spacing: 1px;
+                font-weight: bold !important;
+            }
+            .card-title {
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .card-links {
+                margin-top: 10px;
+            }
+            .card-text {
+                font-size: 12px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            .card-title-testimony {
+                font-size: 13px;
+            }
+            #aboutusimg {
+                height: 650px;
+            }
+            .container-aboutus {
+                font-size: 12px;
+                padding: 2px;
+                margin-top: 1px;
+            }
+            .carousel-card {
+                min-height: 200px;
+            }
+            #media-links {
+                font-size: 13px;
+                margin-top: 0px;
+            }
+            #contactusimg {
+                width: 100%;
+            }
+            #card-subtitle {
+                font-size: 13px;
+            }
+            form {
+                font-size: 13px;
+            }
+            .general-sub {
+                font-size: 8px;
+                text-decoration: underline;
+            }
+            .inline-block {
+                font-size: 8px;
+            }
+                .facebook {
+                font-size: 15px;
+            }
 
 
-
-
-        .carousel-card {
-            min-height: 300px;
-        }
-
-        #media-links {
-            font-size: 20px;
-            text-align: center;
-            margin-top: 5px;
-        }
-
-        .container-links {
-            font-size: 15px;
-            margin-top: 0px;
-        }
-
-        #contactusimg {
-            width: 100%;
-            object-fit: cover;
-        }
-
-        #card-subtitle {
-            font-size: 18px;
-        }
-
-        form {
-            font-size: 15px;
-            margin-top: 0px;
 
         }
-    }
-
-    @media screen and (max-width: 390px) {
-        #title {
-            font-size: 20px;
-            text-align: center;
-        }
-
-        #wrexham {
-            font-size: 9x;
-        }
-
-        nav a {
-            font-size: 8px !important;
-            letter-spacing: 1px;
-            font-weight: bold !important;
-        }
-
-
-
-        .card-title {
-            font-size: 13px;
-            font-weight: bold;
-        }
-
-        .card-links {
-            margin-top: 10px;
-        }    
-
-        .card-text {
-            font-size: 12px;
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .card-title-testimony {
-            font-size: 13px;
-        }
-
-       
-
-    
-        #aboutusimg {
-            height: 650px;
-        }
-
-        .container-aboutus {
-
-            font-size: 12px;
-            padding: 2px;
-            margin-top: 1px;
-
-        }
-
-        .carousel-card {
-            min-height: 200px;
-        }
-
-
-        #media-links {
-            font-size: 13px;
-            margin-top: 0px;
-        }
-
-        .container-links {
-            font-size: 13px;
-            margin-top: 0px;
-        }
-
-        #contactusimg {
-            width: 100%;
-        }
-
-        #card-subtitle {
-            font-size: 13px;
-        }
-
-        form {
-            font-size: 13px;
-        }
-
-        .general-sub {
-            font-size: 8px;
-            text-decoration: underline;
-        }
-
-
-        .inline-block {
-            font-size: 8px;
-        }
-
-
-        .facebook {
-            font-size: 15px;
-        }
-
-
-
-    }
