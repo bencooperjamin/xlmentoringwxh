@@ -108,12 +108,82 @@ The navigation route will be linear and will encourage users to go on a journey 
 
 #### Wireframes
 
-<details><summary>Folded Fairy Full Responsive Wireframes</summary>
-<img src="assets/images/full-wireframes.png" alt="Wireframes of the site's general layout made with figma">
+<details><summary>XL-Mentoring, Wrexham - Wireframes</summary>
+<img src="README-IMAGES/Wireframe-aboutus.html.png" alt="Wireframes of the site's general layout made with Google Docs">
+<img src="README-IMAGES/Wireframe-aboutus.html.png" alt="Wireframes of the site's general layout made with Google Docs">
 </details>
 
-All wireframes have been created with [Figma](https://figma.com/).
+All wireframes have been created with using a basic drawing add -on on Google Docs
 
-The wireframes featured here are the initial design idea for the webpage. Some styling elements have been changed since testing to improve accessibility as per suggestions through lighthouse as well as positioning changes in the reviews section after viewing the live site.
+The wireframes featured here are the initial design idea for the webpage. Some styling elements have been changed since the wireframes were drawn because we used different images which we felt were more modern. For example: instead of using two images with a young boy and girl looking through a telscope we chose to use one image of a mobile phone being held to take a picture of the view of the mountains before they go on a hike.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
+
+## User Interface - Design
+
+### Surface
+
+#### Typography
+
+Fonts have been imported from [Google Fonts](https://fonts.google.com/).
+
+* [Alumni Sans Pinstripe](https://fonts.google.com/specimen/Alumni+Sans+Pinstripe?query=pinstripe) This font has been used for the header as it was the nearest to the current XL-Mentoring Logo. Mohave is the fallback font followed by Sans Serif. We chose this style of font as it was the nearest to what is currently used for the logo and it keeps the continuity and identity of the charity.
+
+* [Mohave](https://fonts.google.com/specimen/Mohave?query=mohave) This font has been used for the main text across the site with "sans-serif" as fallback if the browser doesn't import the font correctly. We felt this was more readable than the above Alumni Sans Pinstripe but a a very similar style. We didn't want to have too many different fonts as it can make the webpage look too busy.
+
+#### Colours
+
+<details><summary>Initial colourscheme ideas through Canva</summary>
+<img src="README-IMAGES/color-palette.png" alt="Screenshot of a colour wheel with a tetradic of colours selected. A colour pallet to the side shows the green, red, blue and purple colours selected in the wheel.">
+</details>
+
+I used [Canva](https://www.canva.com/colors/color-wheel/) to research a colourscheme for the site. Based on the overview of the site I knew we wanted to include colors which reflected the outdoors and at the same time the welsh red and green.
+
+
+<details><summary>Main colour scheme for the site</summary>
+<img src="README-IMAGES/chosen-palette-colors.png" alt="The four main colours chosen for the site - off white, green, red charcoal-black. More description below.">
+</details>
+
+* __#BA2222__ is the colour I chose for the "X" in Wrexham in the header. We thought it symbolised the welsh dragon above the green navigation bar giving it a sophisticated look. I also used an opaque version to for some of the backgroud text boxes. 
+
+* __#267C31__ - This forest green is the colour I chose for the navigation bar as I felt it was an outdoor countryside green which complimented the images I've used and it was a good representation for the welsh flag. 
+
+* __#2C2727__ - This charcoal-grey color I chose as it was softer on the eyes compared to a definite black which was used in the footer, header text, shadows and also an opaque version was used for the boxes that contained links.
+
+* __#F0F8FF__ - Also known as Aliceblue, this color was used for the text boxes. I felt it was a good contrast to the background box colors above but softer than a harsh white.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+-------
+
+## Features
+
+### Site-Wide
+
+<details><summary>Desktop Header</summary>
+ <img width="899" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/0b0ebc23-0a74-4d11-9ad4-2a77f4369363" alt="An off-white header with the site logo that sits to the left and nav links sit to the right. The active page is pink and the unactive links and logo are green">
+</details>
+
+<details><summary>Mobile Header</summary>
+ <img width="193" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/6eaf1461-f2fe-46dc-a7cc-bf577d992ff4" alt="An off-white header with the site logo and nav link icons sit one above the other in the center. The active page is pink and the unactive links and logo are green">
+</details>
+
+On larger screens the header's logo title sits at the left of the navbar and the navigation links sit on the right as HOME | GALLERY | CONTACT. On smaller screens the logo and links are pushed to the middle of the screen with the logo on top and icons representing each of the links sitting below.
+
+The navigation links on each page have an animated underline feature that expands from the left when hovered over and contracts to the right when the focus is removed.
+
+<details><summary>Desktop Footer</summary>
+<img width="908"src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/e43f0d28-eee3-4b84-a4a9-f5e0a6c043dc" alt="An off-white footer with copyright information to the left and socials icons to the right. All content within the footer is green with the social icons turning pink on hover.">
+</details>
+
+<details><summary>Mobile Footer</summary>
+<img width="248" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/fc520a6f-3b51-4138-acb1-7c1c2da0f8fc" alt="An off-white footer with condensed copyright information to the left and socials icons to the right. All content within the footer is green.">
+</details>
+
+On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only the copyright symbol appearing on the left.
+
+<details><summary>Hero Image Fade-in Animation</summary>
+<img width="902" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/fb7894e9-3648-4cae-ac80-eaffd4200e8e" alt="A screenshot of the hero image - a flower sitting on top of a book. The screenshot shows the image in the process of fading into view.">
+</details>
+
+On the home and contact pages the hero image fades into view over 4 seconds using a keyframes animation. This has also been applied to the gallery carousel as the page loads.
