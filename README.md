@@ -1,6 +1,6 @@
 # XL-MENTORING-WREXHAM - ReadME
 
-![Website view on various screen sizes](README-IMAGES/responsive-screen-imges.png)
+![Website view on various screen sizes](README-IMAGES/responsive-screen-image.png)
 
 [Access the live site here.](**************)
 
@@ -10,40 +10,33 @@ This is the documentation for the XL-Mentoring, Wrexham website. The site has be
 
 ## Contents
 
-* [User Experience (UX)](#user-experience---ux)
-  * [Strategy](#strategy)
-    * [User Stories](#user-stories)
-  * [Scope](#scope)
-  * [Structure](#structure)
-  * [Skeleton](#skeleton)
-* [User Interface (UI) Design](#user-interface---design)
-  * [Typography](#typography)
-  * [Colours](#colours)
-* [Features](#features)
-  * [Site-Wide](#site-wide)
-  * [Home Page](#home-page)
-  * [Gallery](#gallery)
-  * [Contact](#contact)
-* [Future Implementations](#future-implementations)
-* [Accessibility](#accessibility)
-  * [Alt Text](#alt-text)
-  * [Aria Labels](#aria-labels)
-  * [Colours](#colours-1)
-  * [Fonts](#fonts)
-* [Technologies Used](#technologies-used)
-  * [Languages](#languages)
-  * [Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-* [Testing](#testing)
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Achnowledgements](#acknowledgements)
+- [XL-MENTORING-WREXHAM - ReadME](#xl-mentoring-wrexham---readme)
+  - [Contents](#contents)
+  - [User Experience - UX](#user-experience---ux)
+    - [Strategy](#strategy)
+      - [User Stories](#user-stories)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+      - [Wireframes](#wireframes)
+  - [User Interface - Design](#user-interface---design)
+    - [Surface](#surface)
+      - [Typography](#typography)
+      - [Colours](#colours)
+  - [Features](#features)
+    - [Site-Wide](#site-wide)
+    - [Home Page](#home-page)
+    - [Contact](#contact)
+  - [Future Implementations](#future-implementations)
+  - [Accessibility](#accessibility)
+    - [Alt Text](#alt-text)
+    - [Aria Labels](#aria-labels)
+    - [Fonts](#fonts)
+    - [Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)
+  - [Deployment \& Local Development](#deployment--local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+  - [Testing](#testing)
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -85,7 +78,6 @@ Taking all of the above into account I decided that we would need four main page
 
 * __Home Page:__ This would provide users with charities motto along with some testimonials from young people who have benefited from the charity
 * __About Us Page:__ This would provide crucial information covering who its for, who can volunteer,how it works and safeguarding
-* __Gallery & Media Page:__ This would showcase some of the charities events, recognitions and links to magazines articles.
 * __Contact Page:__ This would allow users to ask for more information and to show interest.
 
 As well as the four main pages, links to the charities social media page, charity registration number and accreditations  would be clearly shown in the footer to direct users to other sites.
@@ -161,29 +153,153 @@ I used [Canva](https://www.canva.com/colors/color-wheel/) to research a coloursc
 ### Site-Wide
 
 <details><summary>Desktop Header</summary>
- <img width="899" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/0b0ebc23-0a74-4d11-9ad4-2a77f4369363" alt="An off-white header with the site logo that sits to the left and nav links sit to the right. The active page is pink and the unactive links and logo are green">
+ <img width="899" src="README-IMAGES/desktop.header.png" alt="desktop header the navigation bar in green with a red X in wrexham to represent the welsh flag">
 </details>
 
 <details><summary>Mobile Header</summary>
- <img width="193" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/6eaf1461-f2fe-46dc-a7cc-bf577d992ff4" alt="An off-white header with the site logo and nav link icons sit one above the other in the center. The active page is pink and the unactive links and logo are green">
+ <img width="193" src="README-IMAGES/mobile-header.png" alt="mobile header the navigation bar in green with a red X in wrexham to represent the welsh flag">
 </details>
 
-On larger screens the header's logo title sits at the left of the navbar and the navigation links sit on the right as HOME | GALLERY | CONTACT. On smaller screens the logo and links are pushed to the middle of the screen with the logo on top and icons representing each of the links sitting below.
-
-The navigation links on each page have an animated underline feature that expands from the left when hovered over and contracts to the right when the focus is removed.
+As Xl-mentoring already has merchandise with "XL-Mentoring" written on the iems with a particular style I wanted to keep the brand identity on the website. Also the reason the color green was chosen for the navigation bar with the red x in Wrexham was to show welsh loyalty which is important in Wales. I decided to centralise the header to keep it symmetrical and draw people eyes to the middle of the screen whenrekey testimonies can be found. The listed navigation links all have animation to help the user know when they are hovering over the link correctly.
+This layout also works well on mobile and smaller screens.
 
 <details><summary>Desktop Footer</summary>
-<img width="908"src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/e43f0d28-eee3-4b84-a4a9-f5e0a6c043dc" alt="An off-white footer with copyright information to the left and socials icons to the right. All content within the footer is green with the social icons turning pink on hover.">
+<img width="908"src="README-IMAGES/desktop-footer.png" alt="image of the desktop footer the back ground is a charcoal grey with off white font. Its includes a facebook link and credits to designer, image providers and another">
 </details>
 
 <details><summary>Mobile Footer</summary>
-<img width="248" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/fc520a6f-3b51-4138-acb1-7c1c2da0f8fc" alt="An off-white footer with condensed copyright information to the left and socials icons to the right. All content within the footer is green.">
+<img width="248" src="README-IMAGES/mobile-footer.png" alt="image of the desktop footer the back ground is a charcoal grey with off white font. Its includes a facebook link and credits to designer, image providers and another">
 </details>
 
-On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only the copyright symbol appearing on the left.
+On larger screens the footer is horizontal and readable size font. It was felt by the client that the foter wasn't to be an advertising placard so we kept it subtle. On mobile screens the footer changes direction and becomes vertical.
 
-<details><summary>Hero Image Fade-in Animation</summary>
-<img width="902" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/fb7894e9-3648-4cae-ac80-eaffd4200e8e" alt="A screenshot of the hero image - a flower sitting on top of a book. The screenshot shows the image in the process of fading into view.">
+<details><summary>Hero Image</summary>
+<img width="902" src="README-IMAGES/hero-image.png" alt="A screenshot of the hero image - a person holding a mobile phone taking apicture to the mountain view before going on a hike">
 </details>
 
-On the home and contact pages the hero image fades into view over 4 seconds using a keyframes animation. This has also been applied to the gallery carousel as the page loads.
+On the home page the hero image is of a person taking a picture of the mountain landscape before going on a hike. This was chosen to suggest that users were going on a journey. It was also felt that the mobile phone appealed to a wider demographic.
+
+### Home Page
+
+<details><summary>Home Page</summary>
+<img width="698" src="README-IMAGES/responsive-screen-image.png" alt="Multiple screen size views of the home-page section. The background is of a person taking photo of a mountain view with. On-top of this is two links. One being an audio testimony from a young person and the second being a pdf written testimony from a mentor">
+</details>
+
+The homepage has a person taking a mountain view with a mobile phone. On-top of this is two links. One being an audio testimony from a young person and the second being a pdf written testimony from a mentor to be downloaded.
+The home-page also has the charities motto. Further down are other testimonies from young people.
+
+<details><summary>Responsive About Us section</summary>
+<img width="703" src="README-IMAGES/responsive-about-us-page.png" alt="Multiple screen size views of the about us page. The background is of a mountain view half-way up the mountain and the text cont site in red opaque boxes with the text being off white.">
+</details>
+
+Using bootstrap's grid styling and card classes, the About Us page has a responsive layout that changes for three different breakpoints. On large screen the image goes to the left of the screen an the boxes are standing on the right. For medium to small size screens the text boxes sit on top of the image so you can still see the dramatic scenery. This different from my original plan of having circle to represent the view from binoculars and text being in the four quadrants of the circle.
+
+### Contact
+
+<details><summary>Responsive Contact Form</summary>
+<img width="701" src="README-IMAGES/responsive-contact-page.png" alt="Multiple screen size views of the contact page. The background has a man who has reached the top of the mountain.">
+</details>
+
+<details><summary>FormDump</summary>
+<img width="611" src="README-IMAGES/formdump.png" alt="The code institute formdump page indicating the form has worked.">
+</details>
+
+The Contact page has a responsize design. The image site to the left of the form and the picture shows a person who has reached the top of the mountain. All fields have to be filled in for the Submit button to work. In all fields the were "Required" are also so the user knows what is needed.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+## Future Implementations
+
+1. A gallery was planned to be added with addition of media links to highlight the media profile the charity has.
+
+2. A Welsh translation is being considered but is on hold as the Project Manager doesn't speak Welsh and we didn't want users to expect a welsh speaker at the end of the phone.
+
+3. A page designated to who the Project Manager is, so users don't feel they are sharing information with an AI.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+## Accessibility
+
+### Alt Text
+
+Alternative text has been included for all images across the site, including all images within the readme file.
+
+### Aria Labels
+
+Aria labels have been included for all links across the site, as well as the copyright icon in the footer.
+
+### Fonts
+
+The main font is plain and easy to read. The cursive font used for the main heading and various sections throughout has been styled with extra letter spacing to make it easier to read.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+### Frameworks, Libraries, and Programs Used
+
+- [Bootstrap V4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - For the framework for the website. Code for the navigation bar, About Us, Contacts Us were used and modified. Additional CSS styling was also implemented in style.css.
+
+* Google docs - The draw and paint utilities were used for wireframes and other graphics in readme.
+
+- [Font Awesome](https://fontawesome.com/v4/) - For the icons on the website.
+
+* Git - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+- [Freepik](https://www.freepik.com/) - For stock image.
+
+* [UI.dev](https://ui.dev/amiresponsive) - To show the site on a range of screen sizes.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+-------
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to [Github](https://github.com/).
+2. Find the repository for this project, [xlmentoringwxh](https://github.com/bencooperjamin/xlmentoringwxh).
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+* #### How to Fork
+
+To fork the Folded-Fairy repository:
+
+1. Log in (or sign up) to [Github](https://github.com/).
+2. Go to the repository for [this project](https://github.com/bencooperjamin/xlmentoringwxh).
+3. Click the Fork button in the top right corner.
+
+* #### How to Clone
+
+To clone the Folded-Fairy repository:
+
+1. Log in (or sign up) to [Github](https://github.com/).
+2. Go to the repository for [this project](https://github.com/bencooperjamin/xlmentoringwxh).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+-----
+
+## Testing
+
+Please see [testing.md](testing.md) for all testing elements of this site.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+-----
+
