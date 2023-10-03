@@ -37,6 +37,8 @@ This is the documentation for the XL-Mentoring, Wrexham website. The site has be
     - [Deployment](#deployment)
     - [Local Development](#local-development)
   - [Testing](#testing)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -303,3 +305,34 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 
 -----
 
+- [w3schools](https://www.w3schools.com/tags/att_audio_autoplay.asp): To confirm how to add audio player and pdf
+
+- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/): Insert th cards, navigation bar, footer contact form and how to use the grid system for the layout/
+
+- [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/15fe9d557bcc4af5a117465b9150454f/) - Love Running Mini Project: Support with styling within style.css and code from the form challenge and using the form dump.
+
+- [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/d2a9b1d3309349bba53e1debbe4c60a9/) - Introduction to Bootstrap: Support with styling through Bootstrap including how to use the grid system.
+
+- [Stack Overflow](https://stackoverflow.com/questions/43949695/replace-text-in-menu-with-icon-in-small-screen-bootstrap): Using Bootstrap to hide and show elements of nav bar on different screen sizes.
+
+- [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp): Text area in contact form.
+
+### Media
+
+- Project Manager: Text and an outline of what information was to be added.
+
+- [Freepik](https://www.freepik.com/): Used to source all images for the site.
+
+- [UI.dev](https://ui.dev/amiresponsive): Used to generate images that showcase the responsive design within the readme file.
+
+### Acknowledgements
+
+- Rahul Lakhanpa - Mentor: For the encouragement and providing insights into building my project.
+
+- [Iris Smok](https://github.com/Iris-Smok) - Cohort Facilitator: For hosting informative standup's and providing a great class atmosphere.
+
+- Class June 2023: Everyone in my class channel on slack who is involved with the stand ups and group chat for contributing to the great atmosphere and supportive environment.
+
+- The wider slack community: For quick responses to various issues and questions I had at all stages of the project.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
