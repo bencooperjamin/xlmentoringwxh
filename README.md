@@ -2,7 +2,7 @@
 
 ![Website view on various screen sizes](README-IMAGES/responsive-screen-image.png)
 
-[Access the live site here.](**************)
+[Access the live site here.](https://bencooperjamin.github.io/xlmentoringwxh/)
 
 This is the documentation for the XL-Mentoring, Wrexham website. The site has been built using HTML5 & CSS3 with minor javascript elements created through the use of Bootstrap for the Milestone 1 project for Code Institute's web development diploma.
 
@@ -271,11 +271,11 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 1. Log in (or sign up) to [Github](https://github.com/).
 2. Find the repository for this project, [xlmentoringwxh](https://github.com/bencooperjamin/xlmentoringwxh).
 3. Click on the Settings link.
-3. On the left-hand side, you will see a sub-heading called "code and automation" with link called "Pages" click this link.
-4. Below the title "Build and Deployment" you will see "Source" click the dropdown called "None" and selct "Main".
-5. Next click the dropdown called "docs" and select "root" then save.
-6. The page will automatically refresh.
-7. At the top of the reposit0ry there will be a box with a [Visit Site]
+4. On the left-hand side, you will see a sub-heading called "code and automation" with link called "Pages" click this link.
+5. Below the title "Build and Deployment" you will see "Branch" click the dropdown called "None" and selct "Main".
+6. Next click the dropdown called "docs" and select "root" then save.
+7. The page sould automatically refresh.
+8. At the top of the repository there will be a box with [Visit Site](https://bencooperjamin.github.io/xlmentoringwxh/) button, to view the published website.
 
 ### Local Development
 
