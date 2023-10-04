@@ -271,9 +271,11 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 1. Log in (or sign up) to [Github](https://github.com/).
 2. Find the repository for this project, [xlmentoringwxh](https://github.com/bencooperjamin/xlmentoringwxh).
 3. Click on the Settings link.
-4. Click on the Pages link in the left hand side navigation bar.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+3. On the left-hand side, you will see a sub-heading called "code and automation" with link called "Pages" click this link.
+4. Below the title "Build and Deployment" you will see "Source" click the dropdown called "None" and selct "Main".
+5. Next click the dropdown called "docs" and select "root" then save.
+6. The page will automatically refresh.
+7. At the top of the reposit0ry there will be a box with a [Visit Site]
 
 ### Local Development
 
