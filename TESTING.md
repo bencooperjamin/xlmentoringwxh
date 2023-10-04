@@ -17,7 +17,7 @@
     - [Full Testing](#full-testing)
   - [Bugs](#bugs)
     - [Solved Bugs](#solved-bugs)
-    - [Known Bugs](#known-bugs)
+    - [Known Bus](#known-bus)
 
 -----
 
@@ -43,7 +43,7 @@ All HTML and CSS tested through the validator returned no errors or warnings.
 The lighthouse tool within the chrome developer tools has been used to test performance, best practices, accessibility, and SEO. Desktop and mobile tests have been run for each page.
 
 <details><summary>Home Page Desktop Results</summary>
-<img width="399" src="README-IMAGES/lighthouse-home-desktop.png" alt="lighthouse home page results for a desktop performance 76 accessibility 94 best practises 100 SEO 100">
+<img width="399" src="README-IMAGES/lighthouse-home-desktop1.png" alt="lighthouse home page results for a desktop performance 92 accessibility 94 best practises 100 SEO 100">
 </details>
 
 <details><summary>Home Page Mobile Results</summary>
@@ -94,10 +94,10 @@ The images I've used have slowed the websites perfomance. Images have been resiz
 > - As a first time visitor, I want to learn about how the charity works, who it is for, how I can get involved and what safeguarding is in place.
 >
 <details><summary>The site has a clear about us page with a tower of concise information that isn't too wordy and aimed at all demographics, hoping it covers the essential information for parents, teachers and volunteers.</summary>
-<img width="905" src="file:///workspaces/xlmentoringwxh/README-IMAGES/responsive-about-us-page.png "alt="desktop aboutus page">
+<img width="905" src="README-IMAGES/responsive-about-us-page.png"alt="desktop aboutus page">
 
 
-> - As a first time visitor, I want to learn about the charities details, the founding charity and what currently is the charity involvement in the city by viewing its socail media platform.
+> - As a first time visitor, I want to learn about the charities details, the founding charity and what involvement has the charity got in the city by viewing its socail media platform.
 
 <details><summary>There is a link to one social media platform, a link to the founding charities website and the charities registration number in the footer,  which stays at the bottom of the screen on each page.</summary>
 <img width="908" src="README-IMAGES/desktop-footer.png" alt="desktop footer">
@@ -146,14 +146,14 @@ Additional testing has been carried out by friends and colleagues including Goog
 
 | # | Issue | Details | What was done | Fixed? |
 | --- | --- | --- | --- | --- |
-| 1 | Home page further testimonies were not alligned | When when viewing the further testimonies page on different screen the boxes wouldn't allign correctly| Had to alter the bootstrap grid syetem settings | __YES__ |
-| 2 | The Pdf link on the home page was enabled so wherever to clicked on the whole page opened up the Pdf | Missing closing tag on the pdf a | element | __Yes__ |
+| 1 | Home page further testimonies were not alligned | When viewing the further testimonies page on different screen the boxes wouldn't allign correctly| Had to alter the bootstrap grid system settings | __YES__ |
+| 2 | The Pdf link on the home page was enabled so wherever you clicked on the whole page it opened up the Pdf | Missing closing tag on the pdf a | element | __Yes__ |
 
 <details><summary>Screenshot to show how Issue 1 looked on smaller screens</summary>
 <img width="698" src="README-IMAGES/bug-isssue-1.png" alt="Example Issue 1 - How the boxes were't alligned on smaller screens">
 </details>
 
-### Known Bugs
+### Known Bus
 
 There are currently no known bugs in this version of the site. However I would like to spend some time on addressing some gaps on the pages when viewing on larger screens 
 

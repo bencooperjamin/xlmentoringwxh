@@ -48,7 +48,7 @@ This is the documentation for the XL-Mentoring, Wrexham website. The site has be
 
 ### Strategy
 
- This project is inspired by a real charity that exists in Wrexham, Wales The aim of the website is to broaden the oportunities to recruit volunteers. The charity doesn't have a shortage of young people being referred but has a shortage of volunteer mentors. The Project Manager is mindful that parents, guardians, teachers and young people will have access to this sight. With this in mind it needs to be informative without it being academically out of reach for people who might struggle. Images to describe the journey and process were considered to be key.
+ This project is inspired by a real charity that exists in Wrexham, Wales. The aim of the website is to broaden the opportunities to recruit volunteers. The charity doesn't have a shortage of young people being referred to by schools but has a shortage of volunteer mentors. The Project Manager is mindful that parents, guardians, teachers and young people will have access to this sight. With this in mind it needs to be informative without it being academically out of reach for people who might struggle. Images to describe the journey and process were considered to be key. So it was requested that a hiking journey would be appropriate as we are surrounded by hills and Snowdonia is nearby. 
  
 #### User Stories
 
@@ -58,7 +58,7 @@ This is the documentation for the XL-Mentoring, Wrexham website. The site has be
 
     b. As a first time visitor, I want to be able to easily navigate the site to access content without having to use the back button at any time.
 
-    c. As a first time visitor, I want to look for testimonials to understand the benefits of the charity to young people. I also want to locate their social media links to see their followings on social media to determine how trusted and how well known they are.
+    c. As a first time visitor, I want to look for testimonials to understand the benefits of the charity to young people. I also want to locate the charities social media links to see their followings on social media to determine how trusted and how well known they are.
 
 * __Returning Visitor Goals__
 
@@ -70,21 +70,21 @@ This is the documentation for the XL-Mentoring, Wrexham website. The site has be
 
     a. As a frequent user, I want to confidently recommend the charity to others.
     
-    b. As a frequent visitor, I want to be able to check for new traing days and discover what current opportunities the charity has had.
+    b. As a frequent visitor, I want to be able to check for new training days and discover what current opportunities the charity has had.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ### Scope
 
-Taking all of the above into account I decided that we would need four main pages to begin with;
+Taking all of the above into account I decided that we would need three main pages to begin with;
 
 * __Home Page:__ This would provide users with charities motto along with some testimonials from young people who have benefited from the charity
-* __About Us Page:__ This would provide crucial information covering who its for, who can volunteer,how it works and safeguarding
+* __About Us Page:__ This would provide crucial information covering who its for, who can volunteer, how it works and safeguarding
 * __Contact Page:__ This would allow users to ask for more information and to show interest.
 
-As well as the four main pages, links to the charities social media page, charity registration number and accreditations  would be clearly shown in the footer to direct users to other sites.
+As well as the three main pages, links to the charities social media page, charity registration number and accreditations  would be clearly shown in the footer to direct users to other sites.
 
-These four pages give the Project Manager a good starting idea about the potential for having their own website with room to expand the site to include more features in the future.
+These three pages give the Project Manager a good starting idea about the potential for having their own website with room to expand the site to include more features in the future.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -92,7 +92,7 @@ These four pages give the Project Manager a good starting idea about the potenti
 
 ### Structure
 
-The navigation route will be linear and will encourage users to go on a journey to learn about the work the charity does, the benefits to young people, read about the charity, view some of the events and past accolades and then opportunity to contact the charity for more information. This will be the order that the pages appear in the navigation bar.
+The navigation route will be linear and will encourage users to go on a journey to learn about the work the charity does, the benefits to young people and then opportunity to contact the charity for more information. This will be the order that the pages appear in the navigation bar.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -127,24 +127,24 @@ Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
 #### Colours
 
-<details><summary>Initial colourscheme ideas through Canva</summary>
+<details><summary>Initial colour scheme ideas through Canva</summary>
 <img src="README-IMAGES/color-palette.png" alt="Screenshot of a colour wheel with a tetradic of colours selected. A colour pallet to the side shows the green, red, blue and purple colours selected in the wheel.">
 </details>
 
-I used [Canva](https://www.canva.com/colors/color-wheel/) to research a colourscheme for the site. Based on the overview of the site I knew we wanted to include colors which reflected the outdoors and at the same time the welsh red and green.
+I used [Canva](https://www.canva.com/colors/color-wheel/) to research a colourscheme for the site. Based on the overview of the site I knew we wanted to include colors which reflected the outdoors and at the same time the welsh red and green which is important to this area.
 
 
 <details><summary>Main colour scheme for the site</summary>
 <img src="README-IMAGES/chosen-palette-colors.png" alt="The four main colours chosen for the site - off white, green, red charcoal-black. More description below.">
 </details>
 
-* __#BA2222__ is the colour I chose for the "X" in Wrexham in the header. We thought it symbolised the welsh dragon above the green navigation bar giving it a sophisticated look. I also used an opaque version to for some of the backgroud text boxes. 
+* __#BA2222__ is the colour I chose for the "X" in Wrexham in the header. We thought it symbolised the welsh dragon above the green navigation bar giving it a sophisticated look. I also used an opaque version for some of the backgroud text boxes. 
 
 * __#267C31__ - This forest green is the colour I chose for the navigation bar as I felt it was an outdoor countryside green which complimented the images I've used and it was a good representation for the welsh flag. 
 
-* __#2C2727__ - This charcoal-grey color I chose as it was softer on the eyes compared to a definite black which was used in the footer, header text, shadows and also an opaque version was used for the boxes that contained links.
+* __#2C2727__ - This charcoal-grey color I chose is softer on the eyes compared to a definite black. The charcoal grey used in the footer, header text, shadows and also an opaque version was used for the boxes that contained links.
 
-* __#F0F8FF__ - Also known as Aliceblue, this color was used for the text boxes. I felt it was a good contrast to the background box colors above but softer than a harsh white.
+* __#F0F8FF__ - Also known as Aliceblue, this color was used for the text in boxes. I felt it was a good contrast to the background box colors above but softer than a harsh white.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -162,7 +162,7 @@ I used [Canva](https://www.canva.com/colors/color-wheel/) to research a coloursc
  <img width="193" src="README-IMAGES/mobile-header.png" alt="mobile header the navigation bar in green with a red X in wrexham to represent the welsh flag">
 </details>
 
-As Xl-mentoring already has merchandise with "XL-Mentoring" written on the iems with a particular style I wanted to keep the brand identity on the website. Also the reason the color green was chosen for the navigation bar with the red x in Wrexham was to show welsh loyalty which is important in Wales. I decided to centralise the header to keep it symmetrical and draw people eyes to the middle of the screen whenrekey testimonies can be found. The listed navigation links all have animation to help the user know when they are hovering over the link correctly.
+As XL-mentoring already has merchandise with "XL-Mentoring" written on the items with a particular style I wanted to keep the brand identity on the website. Also the reason the color green was chosen for the navigation bar with the red x in Wrexham was to show welsh loyalty which is important in Wales. I decided to centralise the header to keep it symmetrical and draw people eyes to the middle of the screen where key testimonies can be found. The listed navigation links all have animation to help the user know when they are hovering over the link correctly.
 This layout also works well on mobile and smaller screens.
 
 <details><summary>Desktop Footer</summary>
@@ -173,7 +173,7 @@ This layout also works well on mobile and smaller screens.
 <img width="248" src="README-IMAGES/mobile-footer.png" alt="image of the desktop footer the back ground is a charcoal grey with off white font. Its includes a facebook link and credits to designer, image providers and another">
 </details>
 
-On larger screens the footer is horizontal and readable size font. It was felt by the client that the foter wasn't to be an advertising placard so we kept it subtle. On mobile screens the footer changes direction and becomes vertical.
+On larger screens the footer is horizontal and with a easily readable size font. It was felt by the client that the footer wasn't to be an advertising placard so we kept it subtle. On mobile screens the footer changes direction and becomes vertical.
 
 <details><summary>Hero Image</summary>
 <img width="902" src="README-IMAGES/hero-image.png" alt="A screenshot of the hero image - a person holding a mobile phone taking apicture to the mountain view before going on a hike">
@@ -194,7 +194,7 @@ The home-page also has the charities motto. Further down are other testimonies f
 <img width="703" src="README-IMAGES/responsive-about-us-page.png" alt="Multiple screen size views of the about us page. The background is of a mountain view half-way up the mountain and the text cont site in red opaque boxes with the text being off white.">
 </details>
 
-Using bootstrap's grid styling and card classes, the About Us page has a responsive layout that changes for three different breakpoints. On large screen the image goes to the left of the screen an the boxes are standing on the right. For medium to small size screens the text boxes sit on top of the image so you can still see the dramatic scenery. This different from my original plan of having circle to represent the view from binoculars and text being in the four quadrants of the circle.
+Using bootstrap's grid styling and card classes, the About Us page has a responsive layout that changes for three different breakpoints. On large screens the image goes to the left of the screen and the textboxes are standing on the right. For medium to small size screens the text boxes sit on top of the image so you can still see the dramatic scenery. This is different from my original plan of having a circle to represent the view from binoculars and text being in the four quadrants of the circle.
 
 ### Contact
 
@@ -206,7 +206,7 @@ Using bootstrap's grid styling and card classes, the About Us page has a respons
 <img width="611" src="README-IMAGES/formdump.png" alt="The code institute formdump page indicating the form has worked.">
 </details>
 
-The Contact page has a responsize design. The image site to the left of the form and the picture shows a person who has reached the top of the mountain. All fields have to be filled in for the Submit button to work. In all fields the were "Required" are also so the user knows what is needed.
+The Contact page has a responsize design. The image sits to the left of the form and the picture shows a person who has reached the top of the mountain. All fields have to be filled in for the Submit button to work. In all fields the words "Required" are also visible so the user knows what is needed.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -214,11 +214,11 @@ The Contact page has a responsize design. The image site to the left of the form
 
 1. A gallery was planned to be added with addition of media links to highlight the media profile the charity has.
 
-2. A Welsh translation is being considered but is on hold as the Project Manager doesn't speak Welsh and we didn't want users to expect a welsh speaker at the end of the phone.
+2. A Welsh translation is being considered but is on hold as the Project Manager doesn't speak Welsh and we didn't want users to expect a welsh speaker at the end of the phone or email.
 
-3. A page designated to who the Project Manager is, so users don't feel they are sharing information with an AI.
+3. A page designated to who the Project Manager is, so users don't feel they are sharing information with an Artifical Intelligence.
 
-4. Address some of the gaps when viewing on larger screens. 
+4. Address some of the gaps when viewing on larger screens and consider including another page so some of the pages appear less cramped which would make it look less busy. 
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -309,7 +309,7 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 
 - [w3schools](https://www.w3schools.com/tags/att_audio_autoplay.asp): To confirm how to add audio player and pdf
 
-- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/): Insert th cards, navigation bar, footer contact form and how to use the grid system for the layout/
+- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/): Insert the cards, navigation bar, footer, contact form and to use the grid system for the layout.
 
 - [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/15fe9d557bcc4af5a117465b9150454f/) - Love Running Mini Project: Support with styling within style.css and code from the form challenge and using the form dump.
 
@@ -321,17 +321,17 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 
 ### Media
 
-- Project Manager: Text and an outline of what information was to be added.
-
 - [Freepik](https://www.freepik.com/): Used to source all images for the site.
 
 - [UI.dev](https://ui.dev/amiresponsive): Used to generate images that showcase the responsive design within the readme file.
 
 ### Acknowledgements
 
+- Project Manager: Written text to copy and paste and give an outline of what information was to be added.
+
 - Rahul Lakhanpa - Mentor: For the encouragement and providing insights into building my project.
 
-- [Iris Smok](https://github.com/Iris-Smok) - Cohort Facilitator: For hosting informative standup's and providing a great class atmosphere.
+- [Iris Smok](https://github.com/Iris-Smok) - Cohort Facilitator: For hosting informative standup's and providing a great class atmosphere and giving some 1:1 guidance.
 
 - Class June 2023: Everyone in my class channel on slack who is involved with the stand ups and group chat for contributing to the great atmosphere and supportive environment.
 
