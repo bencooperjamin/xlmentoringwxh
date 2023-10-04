@@ -51,7 +51,7 @@ nav a {
 }
 .hvr-sweep-to-bottom:before {
     background: #ba2222 !important;
-    height: 40px;
+    height: 80px;
 }
 
 /*home----------------------------------------------------------------------*/
@@ -141,28 +141,6 @@ nav a {
     width: 50vw;
 }
 
-/*gallery.html----------------------------------------------------------------*/
-
-
-
-}
-
-
-
-}
-
-   
-}
-#media-links{
-    font-family: "Mohave", sans-serif;
-    text-align: center;
-    color: aliceblue;
-    font-size: 24px;
-    margin-top: 100px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #302a2ae1;
-    }
 /*contact form----------------------------------------------------------------*/
 form {
     font-family: "Mohave", sans-serif;
@@ -187,10 +165,7 @@ form {
     width: 50vw;
 }
 
-
-
 /*footer----------------------------------------------------------------------*/
-
 footer {
     font-family: "Mohave", sans-serif;
     background: #444343;
@@ -216,286 +191,268 @@ footer {
 }
 
 /* MEDIA QUERIES_____________________________________________________________ */
-/* For medium screens sizes from 1600px wide and down */
-@media screen and (max-width: 1600px) {
-
 
 /* For medium screens sizes from 1280px wide and down */
 @media screen and (max-width: 1280px) {
     
-    .card-title {
-        font-size: 40px;
-    }
-    #hero-text {
-        margin-top: 15px;
-        margin-bottom: 5px;
-        padding: 5px;
-    }
+.card-title {
+    font-size: 40px;
+}
+#hero-text {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
     
-    #card-subtitle {
-        font-size: 15px;
-    }
-    .card-links {
-        font-size: 18px;
-        margin-top: 25px;
-        margin-bottom: 5px;
-    }
-    audio {
-        width: 75%;
-    }
-    #mentorstestimony {
-       padding-top: 5px;
-       padding-bottom: 5px;
-    }
-    .card-text {
-        font-size: 18px;
-        margin-top: 20px;
-        
-    }
-    #aboutusimg {
-        object-fit: cover;
-        height: 950px;
-        
-    }
-    .container-aboutus {
-        font-size: 16px;
-        margin-top: 40px;
-    }
-    form {
-        width: 100%;
-        margin-top: 10px;
-    }
-    .form-control {
-        margin-bottom: 5px;
-    }
-    .enquiry-button {
-        margin-top: 15px;
-    }
-    .general-sub {
-        font-size: 16px;
-    }
-    .inline-block {
-            font-size: 16px;
-    }
-    .facebook {
-        font-size: 30px;
-    }
+#card-subtitle {
+    font-size: 15px;
+}
+.card-links {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+audio {
+    width: 75%;
+}
+#mentorstestimony {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card-text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#aboutusimg {
+    object-fit: cover;
+    height: 950px;
+}
+.container-aboutus {
+    font-size: 16px;
+    margin-top: 40px;
+}
+form {
+    width: 100%;
+    margin-top: 10px;
+}
+.form-control {
+    margin-bottom: 5px;
+}
+.enquiry-button {
+    margin-top: 15px;
+}
+.general-sub {
+    font-size: 16px;
+}
+.inline-block {
+    font-size: 16px;
+}
+.facebook {
+    font-size: 30px;
+}
 }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    #title {
-        font-size: 80px;
-    }
-    .card-title {
-        font-size: 25px;
-    }
-    #hero-text {
-        font-size: 16px;
-        margin-top: 0px;
-        padding: 5px;
-    }
-    .card-links {
-        font-size: 16px;
-        margin-top: 30px;
-        padding-bottom: 0px;
-        background-color: #201d1db2;;
-    }
-    #mentorstestimony {
-        padding-top: 10px;
-    }
-    .card-sub-titles {
-        font-size: 18px;
-    }
-    audio {
-        height: 25px;
-        width: 300px;
-    }
-    .card-text {
-        font-size: 16px;
-        margin-top: 25px;
-    }
-    #aboutusimg {
-        width: 100%;
-    }
-    .container-aboutus {
-        padding: 2px;
-        margin-top: 75px;
-        font-size: 16px;
-    }
-   #media-links {
-        font-size: 14px;
-    }
-   
-    #contactusimg {
-        width: 100%;
-        object-fit: cover;
-    }
-    #card-subtitles{
-        font-size: 16px;
-    }
-    form {
-        width: 100%;
-        }
+#title {
+    font-size: 80px;
+}
+.card-title {
+    font-size: 25px;
+}
+#hero-text {
+    font-size: 16px;
+    margin-top: 0px;
+    padding: 5px;
+}
+.card-links {
+    font-size: 16px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    background-color: #201d1db2;;
+}
+#mentorstestimony {
+    padding-top: 10px;
+}
+.card-sub-titles {
+    font-size: 18px;
+}
+audio {
+    height: 25px;
+    width: 300px;
+}
+.card-text {
+    font-size: 16px;
+    margin-top: 25px;
+}
+#aboutusimg {
+    width: 100%;
+}
+.container-aboutus {
+    padding: 2px;
+    margin-top: 75px;
+    font-size: 16px;
+}
+#contactusimg {
+    width: 100%;
+    object-fit: cover;
+}
+#card-subtitles{
+    font-size: 16px;
+}
+form {
+    width: 100%;
+}
 
+}
 
 /* For small screens sizes from 850px wide and down */
-    @media screen and (max-width: 850px) {
-        .hvr-sweep-to-bottom:before {
-            height: 45px;
-        }
-        #title {
-            font-size: 40px;
-        }
-        #wrexham {
-            font-size: 22px;
-        }
-        nav a {
-            font-size: 12px !important;
-            text-transform: uppercase;
-        }
-        .card-title {
-            font-size: 20px;
-        }
-        #hero-image {
-            object-fit: cover;
-            height: 550px;
-        }
-        #hero-text {
-            font-size: 16px
-        }
-        #green-door {
-            object-fit: cover;
-            height: 450px;
-        }
-        .card-links {
-            font-size: 14px;
-            margin-top: 30px;
-        }
-        audio {
-            width: 75%;
-        }
-        #mentorstestimony {
-            padding-top: 0px;
-        }
-        
-        .card-text {
-            font-size: 14px;
-           margin-top: 20px;
-        }
-        #justbethere {
-            padding-top: 10px;
-        }
-        #staying-together {
-            padding-top: 10px;
-        }
-        .container-aboutus {
-            padding: 2px;
-            margin-top: 60px;
-            font-size: 16px;
-        }
-        form {
-            font-size: 15px;
-            margin-top: 0px;
-        }
-        #contactusimg {
-            object-fit: cover;
-            height: 950px;
-        }
-        .inline-block {
-            font-size: 12px;
-        }
-        .facebook {
-            font-size: 20px;
-        }
-    }
+@media screen and (max-width: 850px) {
+.hvr-sweep-to-bottom:before {
+    height: 45px;
+}
+#title {
+    font-size: 40px;
+}
+#wrexham {
+    font-size: 22px;
+}
+nav a {
+    font-size: 12px !important;
+    text-transform: uppercase;
+}
+.card-title {
+    font-size: 20px;
+}
+#hero-image {
+    object-fit: cover;
+    height: 550px;
+}
+#hero-text {
+    font-size: 16px
+}
+#green-door {
+    object-fit: cover;
+    height: 450px;
+}
+.card-links {
+    font-size: 14px;
+    margin-top: 30px;
+}
+audio {
+    width: 75%;
+}
+#mentorstestimony {
+    padding-top: 0px;
+}
+.card-text {
+    font-size: 14px;
+    margin-top: 20px;
+}
+#justbethere {
+    padding-top: 10px;
+}
+#staying-together {
+    padding-top: 10px;
+}
+.container-aboutus {
+    padding: 2px;
+    margin-top: 60px;
+    font-size: 16px;
+}
+form {
+    font-size: 15px;
+    margin-top: 0px;
+}
+#contactusimg {
+    object-fit: cover;
+    height: 950px;
+}
+.inline-block {
+    font-size: 12px;
+}
+.facebook {
+    font-size: 20px;
+}
+}
 
- /* For small screens sizes from 400px wide and down */
-         @media screen and (max-width: 400px) {
-            #title {
-                font-size: 20px;
-                text-align: center;
-            }
-            nav a {
-                font-size: 14px !important;
-                font-weight: bold !important;
-            }
-            .card-title {
-                font-size: 14px;
-                font-weight: bold;
-            }
-            .card-links {
-                font-size: 11px;
-                margin-top: 5px;
-            }
-            .card-sub-titles {
-                font-size: 14px;
-            }
-            .card-text {
-                font-size: 11px;
-                text-align: center;
-                margin-top: 25px;
-            }
-            #card-subtitle {
-                font-size: 11px;
-            }
-            #aboutusimg {
-                height: 650px;
-            }
-            .container-aboutus {
-                font-size: 12px;
-                padding: 2px;
-                margin-top: 25px;
-            }
-            #media-links {
-                font-size: 12px;
-                margin-top: 20px;
-            }
-            #contactusimg {
-                width: 100%;
-            }
-            #card-subtitle {
-                font-size: 12px;
-            }
-           .general-sub {
-                font-size: 10px;
-                text-decoration: underline;
-            }
-            .inline-block {
-                font-size: 10px;
-            }
-            .facebook {
-                font-size: 15px;
-            }
-        }
-
-   /* For small screens sizes from 306px wide and down */
-   @media screen and (max-width: 306px) {
-            nav a {
-                font-size: 11px !important;
-            }    
-            #hero-text {
-                font-size: 12px;
-            }
-            .card-links {
-                font-size: 11px;
-                margin-top: 15px;
-            }
-           
-            .card-text {
-                font-size: 11px;
-                margin-top: 25px;
-            }
-            #justbethere {
-                padding-top: 10px;
-            }
-            #staying-together {
-            padding-top: 10px;
-            }
-            audio {
-                width: 85%;
-            }
-            
-            
-        }
-    }
+/* For small screens sizes from 400px wide and down */
+@media screen and (max-width: 400px) {
+#title {
+    font-size: 20px;
+    text-align: center;
+}
+nav a {
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-links {
+    font-size: 11px;
+    margin-top: 5px;
+}
+.card-sub-titles {
+    font-size: 14px;
+}
+.card-text {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 25px;
+}
+#card-subtitle {
+    font-size: 11px;
+}
+#aboutusimg {
+    height: 650px;
+}
+.container-aboutus {
+    font-size: 12px;
+    padding: 2px;
+    margin-top: 25px;
+}
+#contactusimg {
+    width: 100%;
+}
+#card-subtitle {
+    font-size: 12px;
+}
+.general-sub {
+    font-size: 10px;
+    text-decoration: underline;
+}
+.inline-block {
+    font-size: 10px;
+}
+.facebook {
+    font-size: 15px;
+}
+}
+/* For small screens sizes from 306px wide and down */
+@media screen and (max-width: 306px) {
+nav a {
+    font-size: 11px !important;
+}    
+#hero-text {
+    font-size: 12px;
+}
+.card-links {
+    font-size: 11px;
+    margin-top: 15px;
+}
+.card-text {
+    font-size: 11px;
+    margin-top: 25px;
+}
+#justbethere {
+    padding-top: 10px;
+}
+#staying-together {
+    padding-top: 10px;
+}
+audio {
+    width: 85%;
+}
+}

@@ -218,6 +218,8 @@ The Contact page has a responsize design. The image site to the left of the form
 
 3. A page designated to who the Project Manager is, so users don't feel they are sharing information with an AI.
 
+4. Address some of the gaps when viewing on larger screens. 
+
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ## Accessibility
